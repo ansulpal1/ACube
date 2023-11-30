@@ -1,0 +1,212 @@
+.pro-h2 {
+    font-weight: bold;
+    font-family: 'Black Ops One', cursive;
+
+    text-align: center;
+}
+
+.seo {
+    display: flex;
+}
+
+.seo-l {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.seo-r {
+    width: 50%;
+    margin-right: 30px;
+}
+
+.seo-img {
+    width: 500px;
+    height: fit-content;
+}
+
+.seo p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+li {
+    font-size: medium;
+}
+
+.seo-img2 {
+    position: relative;
+    margin-top: 37px;
+
+    width: 100%;
+    height: 10%;
+}
+
+.seo-img3 {
+    margin-left: 40px;
+    position: absolute;
+
+    width: 450px;
+    height: 480px;
+}
+
+.r {
+    margin-top: 40px;
+    text-align: left;
+    margin-right: 60px;
+    word-spacing: 15px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+}
+
+.about-img {
+    height: 200px;
+
+}
+
+.about-p {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+}
+
+.r3 {
+    border: 4px solid;
+    border-color: #0a56e1;
+
+    border-radius: 50%;
+}
+
+.pp {
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    align-items: center;
+}
+
+.btn2 {
+
+    color: aliceblue;
+    background-color: #008CF1;
+    border-radius: 62px;
+    border: 3px solid #FFF;
+    font-weight: 700;
+
+    width: 136px;
+    height: 45px;
+    padding: 0px 1px;
+    transition: background-color 1.5s ease;
+}
+
+.btn2:hover {
+    background-color: #CEB3F9;
+    color: black;
+    /* border-color: #008CF1; */
+
+}
+
+.i1 {
+    margin-left: 50px;
+    text-align: left;
+}
+
+.i2 {
+    margin-left: 50px;
+    text-align: left;
+}
+
+.i3 {
+    margin-left: 50px;
+    text-align: left;
+}
+
+@media screen and (max-width: 488px) {
+    .seo-img {
+        width: 350px;
+        height: fit-content;
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+
+
+    }
+
+    .seo-img2 {
+        width: 350px;
+        height: fit-content;
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+
+
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .mg {
+        display: none;
+    }
+
+    .mr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mrr {
+        display: flex;
+
+        justify-content: left;
+    }
+
+    .btn1 {
+        margin-left: 2.0rem;
+        width: 100px;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    .pro-h2 {
+
+        text-align: center;
+
+    }
+
+    .seo {
+        display: block;
+    }
+
+    .seo-l {
+
+        width: 100%;
+        margin-left: 20px;
+
+    }
+
+    .seo-r {
+
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .seo p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: medium;
+
+    }
+
+    .about {
+        display: block;
+        text-align: center;
+        margin-bottom: 450px;
+    }
+}
